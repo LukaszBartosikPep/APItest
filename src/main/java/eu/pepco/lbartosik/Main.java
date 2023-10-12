@@ -8,5 +8,9 @@ public class Main {
     public static void main(String[] args) {
 //        RestAssuredAPITest apiTest=new RestAssuredAPITest();
 //        apiTest.GetBookDetails();
+
+//        DB_Test dbTest=new DB_Test();
+//
+//        dbTest.connection();
     }
 }
