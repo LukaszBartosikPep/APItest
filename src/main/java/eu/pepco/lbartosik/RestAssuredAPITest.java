@@ -15,19 +15,9 @@ public class RestAssuredAPITest {
     @Test
     public void GetBookDetails(){
 
-//        RestAssured.baseURI="https://demoqa.com/BookStore/v1/Books";
-//
-//        RequestSpecification httpRequest=RestAssured.given();
-//
-//        Response response = httpRequest.request(Method.GET, "");
-//
-//        System.out.println("Status received =>" + response.getStatusCode());
-//
-//        System.out.println(response.prettyPrint());
-//        response.then().assertThat().body("books[0].isbn", equalTo("9781449325862"));
 
         Response response=given()
-                .get("https://demoqa.com/BookStore/v1/Books");  // Replace this with the actual API endpoint
+                .get("https://demoqa.com/BookStore/v1/Books");  
 //                .then()
 //                .statusCode(200)
 //                .body("books[0].isbn", equalTo("9781449325862"));
